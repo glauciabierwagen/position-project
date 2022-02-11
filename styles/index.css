@@ -31,6 +31,8 @@ body {
     flex-direction: row;
 }
 
+/* Settings of logo*/
+
 .logo {
     width: 185.34px;
     height: 31.97px;
@@ -49,12 +51,96 @@ body {
     left: 13px;
 }
 
+/* Settings Container*/
+
 .container {
     margin:50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.container_end {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.first {  
+    max-width: 1126px; 
+    max-height: 496px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.second {
+    position: relative;
+    bottom: 54px;
+    max-height: 108px;
+    max-width: 1126px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.third {
+    position: relative;
+    max-width: 1095px; 
+    max-height: 204px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fourth {
+    max-height: 98px;
+    max-width: 1110px; 
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.fifth { 
+    max-width: 1121x; 
+    max-height: 575px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sixth {
+    position: relative;
+    top:104px;
+    max-width: 1121px; 
+    max-height: 521px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.seventh {
+    position: relative;
+    top:104px;
+    max-width: 1110px; 
+     max-height: 609px;
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+
+/* Settings Navigation*/
 
 .nav {
     list-style-type: none;
@@ -76,6 +162,15 @@ body {
     font-size: 14px;
     color:#2F281E;
 }
+
+.nav_end {
+    list-style-type: none;
+    position: relative;
+    top: 167px;
+    margin: 5px;
+}
+
+/* Settings button*/
 
 .btn_top_design1 {
     max-width: 234px;
@@ -180,77 +275,7 @@ body {
     justify-content: center;
 }
 
-.first {  
-    max-width: 1126px; 
-    max-height: 496px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.second {
-    position: relative;
-    bottom: 54px;
-    max-height: 108px;
-    max-width: 1126px;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.third {
-    position: relative;
-    max-width: 1095px; 
-    max-height: 204px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.fourth {
-    max-height: 98px;
-    max-width: 1110px; 
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.fifth { 
-    max-width: 1121x; 
-    max-height: 575px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.sixth {
-    position: relative;
-    top:104px;
-    max-width: 1121px; 
-    max-height: 521px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.seventh {
-    position: relative;
-    top:104px;
-    max-width: 1110px; 
-     max-height: 609px;
-     width: 100%;
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: row;
- }
+/* Settings Titles and Text*/
 
 .main_title {
     max-width: 518px;
@@ -322,12 +347,31 @@ p {
     margin-inline-end: 2px;
 }
 
+.professionals {
+    max-width: 486px;
+    max-height: 531px;
+}
+
+.managers {
+    max-width: 496px;
+    max-height: 437px;
+    width: 100%;
+}
+
+.marketers {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 486px;
+    width: 100%;
+}
+
+/* Settings Images*/
+
 .first_image {
     max-height: 496px;
     max-width: 605px;
     width: 100%;
     display: inline-block;
-    transform:scale3d(5.5)  /* It was used to experiment the effect*/
 }
 
 .second_image {
@@ -346,6 +390,14 @@ p {
     max-width: 542px;
     max-height: 609px;
 }
+
+.icon {
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+}
+
+/* Settings Miscelaneous*/
 
 .link_design {
     font-family: 'Poppins', sans-serif;
@@ -378,29 +430,6 @@ p {
     
 }
 
-.icon {
-    max-width: 50px;
-    max-height: 50px;
-    width: 100%;
-}
-
-.professionals {
-    max-width: 486px;
-    max-height: 531px;
-}
-
-.managers {
-    max-width: 496px;
-    max-height: 437px;
-    width: 100%;
-}
-
-.marketers {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 486px;
-    width: 100%;
-}
 .check_list {
     max-width: 430px;
     max-height: 62px;
@@ -425,20 +454,6 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.container_end {
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.nav_end {
-    list-style-type: none;
-    position: relative;
-    top: 167px;
-    margin: 5px;
 }
 
 .block_signup {

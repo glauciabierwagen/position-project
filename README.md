@@ -1,4 +1,4 @@
-# Positon
+# Position
 <b> Course IT Women - Front End </b> 
 
 ## Guidelines

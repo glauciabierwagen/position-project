@@ -1,5 +1,9 @@
 # Position
-<b> Course IT Women - Front End </b> 
+<b> Course IT Women - Front End </b>
+<br>
+<p align="center">
+  <img src="https://github.com/glauciabierwagen/glaucia_portfolio/blob/main/images/readmeimage.png" width="950"  heigth="850"/>
+</p>
 
 ## Guidelines
 - Recreation of the design for Productly in Figma.   

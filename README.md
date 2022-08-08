@@ -6,7 +6,7 @@
 </p>
 
 ## Guidelines
-- Recreation of the design for Productly in Figma.   
+- Recreation of a design for Productly in Figma.   
 
 ## Extra materials 
 
